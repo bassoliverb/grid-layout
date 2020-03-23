@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+
+.node-container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.node-box {
+  width: calc(50% - 32px);
+  margin-bottom: 32px;
+  display: inline-table;
+  background-color: #ccc;
+}
+
+.node-box:nth-child(2n) {
+  margin-left: 16px;
+}
+
+.node-box:nth-child(2n + 1) {
+  margin-right: 16px;
+}
+
+.node-box table {
+  width: 100%;
+}
+
+.node-box table td:first-child {
+
+}
